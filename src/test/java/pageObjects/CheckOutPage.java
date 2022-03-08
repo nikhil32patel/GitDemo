@@ -23,6 +23,7 @@ public class CheckOutPage {
 	
 	public WebElement getProductName()
 	{
+		System.out.println(productName);
 		return driver.findElement(productName);
 	}
 	

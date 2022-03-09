@@ -28,10 +28,15 @@ public class HomePage {
 
 	public WebElement getSearch()
 	{
+		System.out.println("In Search");
+		System.out.println("In Search 1");
+		System.out.println("In Search 2");
+		System.out.println("In Search 3");
 		return driver.findElement(search);
 	}
 	
 	public WebElement getProductName()
+	
 	{
 		return driver.findElement(productName);
 	}
